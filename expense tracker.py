@@ -1,23 +1,3 @@
-"""
-Project 2: The Expense Tracker
-DecodeLabs - Python Programming (Industrial Training Kit, Batch 2026)
-
-Goal : The user enters expense amounts (e.g. 100, 50, 20). The program adds
-       them up and displays the Total Spent.
-Skill: Math operations and Accumulators  ->  total = total + new_expense
-
-IPO model used in this program:
-    Input   -> the Gatekeeper: raw text from input() is converted with
-               float() inside try/except so bad data never reaches the math
-    Process -> the Engine: the accumulator adds each valid expense to total
-    Output  -> the Display: the final total is shown, e.g. FINAL TOTAL: $150.00
-
-Quality checklist (The Quality Standard slide):
-    [x] Stability : handles 5+ transactions (the loop has no fixed limit)
-    [x] State     : "total" is initialized OUTSIDE the loop
-    [x] Defense   : "ValueError" is caught on every input
-    [x] Control   : the kill switch ("quit") prints the final total
-"""
 
 import math
 
